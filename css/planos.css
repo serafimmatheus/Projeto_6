@@ -1,0 +1,42 @@
+/*------------------------*/
+/*-----SECTION PLANOS-----*/
+/*------------------------*/
+
+section.planos{
+    width: 100%;
+}
+
+.text-planos-chamada{
+    padding: 10px;
+    text-align: center;
+    background: rgb(180, 180, 180);
+}
+
+.text-planos-chamada h2{
+    display: inline-block;
+    border-top: 2px solid #2692ff;
+    color: #2692ff;
+    text-transform: uppercase;
+}
+
+div.box-planos{
+    width: 100%;
+}
+
+div.box-planos-single{
+    padding: 70px;
+}
+
+div.teste{
+    width: 100%;
+    height: 40px;
+    background: #2692ff;
+}
+
+.style-planos{
+    width: 80%;
+    margin: 0 auto;
+    height: 2px;
+    background: rgb(141, 141, 141);
+    margin-bottom: 20px;
+}

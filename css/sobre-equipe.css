@@ -1,0 +1,67 @@
+/*-------------------------------*/
+/*-----SECTOION SOBRE-EQUIPE-----*/
+/*-------------------------------*/
+
+.sobre-equipe{
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    /* background-image: url(../img/img2.webp);
+    background-position: center; */
+    /* filter: blur(5px); */
+}
+
+.text-sobre-equipe{
+    position: relative;
+    z-index: 10;
+    border-top: 2p solid #2692ff;
+    width: 100%;
+    background: rgb(180, 180, 180);
+    padding: 10px;
+    text-align: center;
+}
+
+.text-sobre-equipe h2{
+    display: inline-block;
+    color: #2692ff;
+    text-transform: uppercase;
+    border-top: 2px solid #2692ff;
+}
+
+.box-equipe{
+    z-index: 5;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fundo-equipe {
+    background-image: url(../img/bg2.jpg);
+    width: 100%;
+    height: 150px;
+}
+
+.fundo-equipe img{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    object-fit: cover;
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.corpo-single{
+    width: 100%;
+    min-height: 200px;
+    background: white;
+    padding: 40px 20px 20px 20px;
+    text-align: center;
+}
+
+div.border-sobre{
+    border: 2px solid black;
+}
+
+

@@ -1,0 +1,139 @@
+/*------------------------*/
+/*-----MEDIAS SCREENS-----*/
+/*------------------------*/
+
+@media screen and (max-width: 1024px){
+    div.box-planos-single {
+        padding: 40px;
+    }
+
+    section.sobre-empresa {
+        height: 500px;
+    }
+
+    div.bg-fundo-empresa {
+        height: 500px;
+    }
+
+    .border-bottom {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 728px){
+    nav.desktop{
+        display: none;
+    }
+
+    div.menu-mobile-icon{
+        display: block;
+    }
+
+    div.logo a{
+        display: inline-block;
+    }
+
+    div.border-bottom{
+        display: none;
+    }
+
+    nav.mobile{
+        display: none;
+    }
+
+    .box-planos-single{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .display-flex {
+        flex-wrap: wrap;
+    }
+
+    .box-equipe {
+        flex-wrap: wrap;
+    }
+
+    div.box-equipe-single{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    div.box-contato {
+        flex-wrap: wrap;
+    }
+
+    div.box-form {
+        width: 100%;
+    }
+
+    div.txt-contato {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:510px) {
+    .box-planos-single {
+        width: 100%;
+    }
+
+    .box-planos-single {
+        width: 100%;
+    }
+
+    div.box-equipe-single {
+        width: 100%;
+    }
+
+    section.sobre-empresa {
+        height: 750px;
+    }
+
+    div.bg-fundo-empresa {
+        height: 750px;
+    }
+
+    footer > .container h4{
+        float: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    div.texto-chamada {
+        width: 100%;
+        max-width: 360px;
+        margin: 0 auto;
+        padding: 1%;
+    }
+
+    div.box-planos-single {
+        padding: 40px 10px;
+    }
+
+    div.box-equipe > .padding-40{
+        padding: 10px;
+    }
+
+    section.sobre-empresa > .container .padding-40{
+        padding: 2px;
+    }
+
+    section.contato {
+        padding: 10px 0;
+    }
+
+    div.box-contato > .padding-40{
+        padding: 40px 0 20px 0;
+    }
+}
+
+@media screen and (max-width: 320px){
+    section.sobre-empresa > .container .padding-40{
+        padding: 0;
+    }
+
+    div.txt-empresa {
+        padding: 10px;
+    }
+}

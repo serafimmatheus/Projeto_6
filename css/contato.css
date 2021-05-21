@@ -1,0 +1,52 @@
+section.contato{
+    width: 100%;
+    min-height: 300px;
+    background: rgb(235, 226, 226);
+    padding: 40px 50px;
+}
+
+div.box-contato{
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+
+div.box-form{
+    width: 50%;
+    min-height: 300px;
+    background: rgb(10, 22, 78);
+    border-radius: 30px;
+    border: 5px solid rgb(0, 13, 78);
+    padding: 10px 40px;
+}
+
+input.form-name{
+    width: 100%;
+    height: 40px;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: none;
+    padding-left: 30px;
+}
+
+.textarea-contato {
+    min-height: 120px;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.button-contato{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 0;
+    background: seagreen;
+}
+
+div.txt-contato{
+    width: 50%;
+}
